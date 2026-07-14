@@ -1,0 +1,28 @@
+title = "Element Sketchpad"
+baseURL = "https://www.elementsketchpad.com/"
+
+[languages]
+  [languages.en]
+    label = "English"
+    locale = "en-us"
+    weight = 1
+
+[module]
+  [[module.imports]]
+    path = "github.com/mdashx/basicwebtheme"
+
+[params]
+  HeaderImage = "/assets/images/elementsketchpad-header.png"
+  description = "Element Sketchpad site."
+  mainSections = []
+
+[taxonomies]
+  tag = "tags"
+
+[markup.highlight]
+  noClasses = false
+
+[[menu.main]]
+  title = "Home"
+  url = "/"
+  weight = 1
